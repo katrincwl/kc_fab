@@ -5,6 +5,10 @@ KC FAB is a jQuery plugin to create materilize floating action button easily.
 ### Version
 1.0
 
+### DEMO
+
+[See the demo]
+
 ### How to use
 
 First of all, you need to have a DOM element to hold action buttons:
@@ -45,3 +49,4 @@ License
 
 MIT
 
+[See the demo]: https://jsfiddle.net/katrinluk/8wxho9cw/3/
