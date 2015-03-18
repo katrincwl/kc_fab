@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="kc.fab.css"/>
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h1 style="text-align: center;">Materialize Floating Action Button - jQuery plugin</h1>
+        <h2 style="text-align: center;">Please feel free to use and contribute! :)</h2>
+        <div class="kc_fab_wrapper" >
+
+        </div>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script src="kc.fab.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                var links = [
+                    {
+                        "bgcolor":"red",
+                        "icon":"+"
+                    },
+                    {
+                        "url":"http://www.example.com",
+                        "bgcolor":"red",
+                        "color":"#fffff",
+                        "icon":"<i class='fa fa-phone'></i>",
+                        "target":"_blank"
+                    },
+                    {
+                        "url":"http://www.example.com",
+                        "bgcolor":"black",
+                        "color":"white",
+                        "icon":"<i class='fa fa-music'></i>"
+                    }
+                ]
+                $('.kc_fab_wrapper').kc_fab(links);
+            })
+        </script>
+    </body>
+</html>
