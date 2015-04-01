@@ -44,13 +44,18 @@ var links = [
 $('.kc_fab_wrapper').kc_fab(links);
 ```
 
-
+### Install by [Bower]
+```nodejs
+bower install kc_fab
+```
 
 License
 ----
 
-MIT
+Copyright (c) 2015 Mark Luk Licensed under the [MIT license].
 
 [jsfriddle demo]: https://jsfiddle.net/katrinluk/8wxho9cw/3/
 [jqueryscript.net]: http://www.jqueryscript.net/menu/Material-Design-Floating-Action-Button-with-jQuery-KC-FAB.html
 [example]: http://www.jqueryscript.net/demo/Material-Design-Floating-Action-Button-with-jQuery-KC-FAB/
+[Bower]: http://libraries.io/bower/kc_fab
+[MIT license]: https://github.com/katrincwl/kc_fab/blob/master/LICENSE
