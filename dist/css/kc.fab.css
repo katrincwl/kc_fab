@@ -15,6 +15,7 @@
   position:fixed;
   right:0px;
   bottom:0px;
+  pointer-events:none;
 }
 .sub_fab_btns_wrapper{
   right:0;
@@ -27,6 +28,7 @@
         -ms-transition: opacity 0.3s ease-in;
          -o-transition: opacity 0.3s ease-in;
             transition: opacity 0.3s ease-in;
+  pointer-events:all;
 }
 .sub_fab_btns_wrapper.show{
   display:block;
@@ -46,6 +48,7 @@
   font-size: 19px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition:.3s;  
+  pointer-events:all;
 }
 button.kc_fab_main_btn{
   background-color:#F44336;
@@ -66,22 +69,17 @@ button.kc_fab_main_btn{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   transition:.3s;  
   -webkit-tap-highlight-color: rgba(0,0,0,0);
+  pointer-events:all;
 }
 .kc_fab_main_btn span{
   transition:.5s;  
-}
-.kc_fab_main_btn:hover span{
-
 }
 .kc_fab_main_btn:focus {
   transform:scale(1.1);
   transform:rotate(45deg);
   -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-
 }
-
-
 
 .ink {
   display: block;
@@ -92,7 +90,7 @@ button.kc_fab_main_btn{
      -moz-transform:scale(0);
        -o-transform:scale(0);
           transform:scale(0);
-
+  pointer-events:all;
 }
 
 .animate {
