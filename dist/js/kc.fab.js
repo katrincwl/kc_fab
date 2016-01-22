@@ -58,8 +58,8 @@
                 main_btn = base.links[0];
                 color_style = (main_btn.color)? "color:"+main_btn.color+";" : "";
                 bg_color_style = (main_btn.bgcolor)? "background-color:"+main_btn.bgcolor+";" : "";
-                main_btn_dom = "<button data-link-href='"+((main_btn.url)?main_btn.url:"")+"' data-link-target='"+((main_btn.target)?main_btn.target:"")+"'' class='kc_fab_main_btn' style='"+bg_color_style+"'><span style='"+color_style+"'>"+main_btn.icon+"</span></button>";
-                
+                main_btn_dom = "<button data-link-href='"+((main_btn.url)?main_btn.url:"")+"' data-link-target='"+((main_btn.target)?main_btn.target:"")+"' class='kc_fab_main_btn' style='"+bg_color_style+"'><span style='"+color_style+"'>"+main_btn.icon+"</span></button>";
+               
 
                 sub_fab_btns_dom = "";
                 base.links.shift();
@@ -68,7 +68,7 @@
                     color_style = (base.links[i].color)? "color:"+base.links[i].color+";" : "";
                     bg_color_style = (base.links[i].bgcolor)? "background-color:"+base.links[i].bgcolor+";" : "";
 
-                    sub_fab_btns_dom += "<div><button data-link-href='"+(base.links[i].url?base.links[i].url:"")+"' data-link-target='"+((base.links[i].target)?base.links[i].target:"")+"' class='sub_fab_btn' style='"+bg_color_style+"'><span style='"+color_style+"'>"+base.links[i].icon+"</span></button></div>";
+                    sub_fab_btns_dom += "<div><button data-link-title='"+base.links[i].title+"' data-link-href='"+(base.links[i].url?base.links[i].url:"")+"' data-link-target='"+((base.links[i].target)?base.links[i].target:"")+"' class='sub_fab_btn' style='"+bg_color_style+"'><span style='"+color_style+"'>"+base.links[i].icon+"</span></button></div>";
                     
                 };
                 sub_fab_btns_dom = "<div class='sub_fab_btns_wrapper'>"+sub_fab_btns_dom+"</div>";
