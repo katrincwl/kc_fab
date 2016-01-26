@@ -1,7 +1,7 @@
 <html>
     <head>
         <link rel="stylesheet" href="dist/css/kc.fab.css"/>
-        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     </head>
     <body>
         <h1 style="text-align: center;">Materialize Floating Action Button - jQuery plugin</h1>
@@ -18,20 +18,23 @@
                 var links = [
                     {
                         "bgcolor":"red",
-                        "icon":"+"
+                        "icon":"+",
+                        "title": "Click me"
                     },
                     {
                         "url":"http://www.example.com",
                         "bgcolor":"red",
                         "color":"#fffff",
                         "icon":"<i class='fa fa-phone'></i>",
-                        "target":"_blank"
+                        "target":"_blank",
+                        "title": "Hey, Click me ..."
                     },
                     {
                         "url":"http://www.example.com",
                         "bgcolor":"black",
                         "color":"white",
-                        "icon":"<i class='fa fa-music'></i>"
+                        "icon":"<i class='fa fa-music'></i>",
+                        "title":"Hey again, Click!"
                     }
                 ]
                 $('.kc_fab_wrapper').kc_fab(links);

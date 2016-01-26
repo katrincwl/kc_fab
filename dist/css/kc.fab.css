@@ -30,6 +30,20 @@
             transition: opacity 0.3s ease-in;
   pointer-events:all;
 }
+.sub_fab_btns_wrapper button[data-link-title]:hover:after{
+  content: attr(data-link-title);
+  opacity: 1;
+  transition: all 0.5s;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+  pointer-events: none;
+  position: absolute;
+  right: 110%;
+  min-width: 150px;
+}
 .sub_fab_btns_wrapper.show{
   display:block;
   opacity: 1;
