@@ -71,7 +71,7 @@
                     //get element ID if exists
                     id_elem = "";
                     if( typeof(base.links[i].id) != "undefined" ){
-                        id_elem = " id="+base.links[i].id+" ";
+                        id_elem = "id="+base.links[i].id;
                     }
                     sub_fab_btns_dom += "<div><button "+id_elem+" data-link-title='"+base.links[i].title+"' data-link-href='"+(base.links[i].url?base.links[i].url:"")+"' data-link-target='"+((base.links[i].target)?base.links[i].target:"")+"' class='sub_fab_btn' style='"+bg_color_style+"'><span style='"+color_style+"'>"+base.links[i].icon+"</span></button></div>";
                     
