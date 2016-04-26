@@ -7,7 +7,7 @@ KC FAB is a jQuery plugin to create materialize floating action button easily.
 
 ### DEMO
 
-- [jsfriddle demo]
+- [jsfiddle demo]
 - Thank you for [jqueryscript.net] to provide another usage [example] for my plugin
 
 
