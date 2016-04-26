@@ -38,7 +38,8 @@ var links = [
                     "url":"http://www.example.com",
                     "bgcolor":"black",
                     "color":"white",
-                    "icon":"<i class='fa fa-music'></i>"
+                    "icon":"<i class='fa fa-music'></i>",
+                    "id":"id_item"
                 }
             ]
 $('.kc_fab_wrapper').kc_fab(links);
